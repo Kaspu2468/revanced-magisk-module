@@ -1,12 +1,10 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
-[[apps]]
-enabled =  true
-apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud"
-app_name = "SoundCloud"
-package_name = "com.soundcloud.android"
-version = "auto"
+[SoundCloud]
+uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
+arch = "arm64-v8a"
 
 [Twitter]
 enabled = false
