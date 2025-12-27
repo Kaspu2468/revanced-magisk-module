@@ -1,13 +1,11 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 compression-level = 9
+dpi = "nodpi anydpi 120-640dpi"
 riplib = true
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-
-[Twitch]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [SoundCloud]
 uptodown-dlurl = "https://soundcloud.en.uptodown.com/android"
