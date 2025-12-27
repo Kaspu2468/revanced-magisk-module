@@ -4,7 +4,9 @@ parallel-jobs = 1
 [SoundCloud]
 enabled =  true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud"
-build-mode = "apk"
+app_name = "SoundCloud"
+package_name = "com.soundcloud.android"
+version = "auto"
 
 [Twitter]
 enabled = false
